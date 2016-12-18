@@ -21,12 +21,6 @@ The ``` min-height ``` value is equal to the tallest elements height and is reca
 <br>
 ##Basic usage
 
-Include a link to the script:
-
-```html
-<script src="js/matchHeights.1.0.min.js"></script>
-```
-
 Add data attributes to the elements:
 
 ```html
@@ -35,6 +29,12 @@ Add data attributes to the elements:
 <div data-matchHeights="A">Yada.</div>
 &hellip;
 <div data-matchHeights="A">Yada, yada, yada. Yada, yada, yada. Yada, yada, yada.</div>
+```
+
+Include a link to the script:
+
+```html
+<script src="js/matchHeights.1.0.min.js"></script>
 ```
 
 <br>
