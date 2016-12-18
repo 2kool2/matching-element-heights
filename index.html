@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang=en-GB>
+<head>
+  <meta charset=utf-8>
+  <meta http-equiv=X-UA-Compatible content="IE=edge">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <title>Matching element heights</title>
+  <link rel=stylesheet href=css/styles.css>
+</head>
+<body>
+
+
+<h1>Matching non-linear element heights</h1>
+
+<p>Easily match-up heights across a set of non-linear elements.<br>
+  Allows for multiple sets, with each set having a different height defined by an inline min-height.<br>
+  For use where Flexbox is too cumbersome or cannot be retro-fitted.
+</p>
+
+<p><strong>CodePen demo: <a href="http://codepen.io/2kool2/pen/MbqGOQ">Matching element heights</a></strong></p>
+
+<p>Super small vanilla script: Approx 417 bytes minified and gzipped (694 bytes uncompressed). No dependencies.</p>
+
+<h2>Example</h2>
+
+<p>Two different heights set, one for the "Blah" (data-matchHeights="B"), another for the "Yada" (data-matchHeights="Y"):
+
+<div class=examples>
+  <div data-matchHeights="B">Blah, blah, blah, blah. Blah, blah, blah, blah.</div>
+  <div data-matchHeights="Y">Yada, yada, yada.</div>
+  <div data-matchHeights="B">Blah.</div>
+  <div data-matchHeights="Y">Yada.</div>
+  <div data-matchHeights="B">Blah, blah, blah, blah.</div>
+  <div data-matchHeights="Y">Yada, yada, yada. Yada, yada, yada. Yada, yada, yada. Yada, yada, yada.</div>
+</div>
+
+
+<h2>How it works</h2>
+
+<p>Add data attribute to the elements you wish to equalise and give each the same value: <code>data-matchHeights="Y"</code>.<br>
+Ensure the elements each have <code>display: block;</code>.<br>
+Then run the script.</p>
+
+<p>All elements with the same data attribute value have the same min-height applied.<br>
+The min-height is equal to the tallest elements height and is recalculated when the browser width changes.</p>
+
+
+<h2>Basic usage</h2>
+
+<p>Include a link to the script:</p>
+
+<figure>
+  <figcaption class=visually-hidden>Language HTML</figcaption>
+  <pre><code class=language-css>
+&lt;script src="js/matchHeights.1.0.min.js">&lt;/script>
+  </code></pre>
+</figure>
+
+<p>Add data attributes to the elements:</p>
+
+<figure>
+  <figcaption class=visually-hidden>Language HTML</figcaption>
+  <pre><code class=language-css>
+&lt;div data-matchHeights="Y">Yada, yada, yada.&lt;/div>
+&hellip;
+&lt;div data-matchHeights="Y">Yada.&lt;/div>
+&hellip;
+&lt;div data-matchHeights="Y">Yada, yada, yada. Yada, yada, yada. Yada, yada, yada.&lt;/div>
+  </code></pre>
+</figure>
+
+
+<h2>Browser support</h2>
+
+<p>Tested Mac and PC: IE9+, Chrome, Safari, Firefox.</p>
+
+
+<hr>
+
+<p>CodePen demo: <a href="http://codepen.io/2kool2/pen/MbqGOQ">Matching element heights</a></p>
+<p>GitHub repo: <a href="https://github.com/2kool2/matching-element-heights">Matching-element-heights</a></p>
+
+<p>Mike Foskett @ <a href="https://websemantics.uk/">webSemantics</a></p>
+
+<script src=js/matchHeights.1.0.min.js></script>
+
+<!--
+<script src=js/matchHeights.1.0.js></script>
+-->
+
+</body>
+</html>
