@@ -5,13 +5,13 @@ Allows for multiple sets, with each set having a different height defined by an 
 
 <strong>CodePen demo: <a href="http://codepen.io/2kool2/pen/MbqGOQ">Matching element heights</a></strong>
 
-Super small script: XXX bytes gzipped.
+Super small vanilla script: Approx 417 bytes minified and gzipped (694 bytes uncompressed). No dependencies.
 
 
 <br>
 ##How it works
 
-Add data attribute to the elements you wish to equalise and give it a value: data-heightMatch="A".
+Add data attribute to the elements you wish to equalise and give it a value: data-matchHeights="A".
 Ensure the elements each have display: block;.
 Then run the script.
 
@@ -30,11 +30,11 @@ Include a link to the script:
 Add data attributes to the elements:
 
 ```html
-<div data-heightMatch="A">Yada, yada, yada.</div>
+<div data-matchHeights="A">Yada, yada, yada.</div>
 &hellip;
-<div data-heightMatch="A">Yada.</div>
+<div data-matchHeights="A">Yada.</div>
 &hellip;
-<div data-heightMatch="A">Yada, yada, yada. Yada, yada, yada. Yada, yada, yada.</div>
+<div data-matchHeights="A">Yada, yada, yada. Yada, yada, yada. Yada, yada, yada.</div>
 ```
 
 <br>
