@@ -11,7 +11,7 @@ Super small vanilla script: Approx 417 bytes minified and gzipped (694 bytes unc
 <br>
 ##How it works
 
-Add data attribute to the elements you wish to equalise and give it a value: data-matchHeights="A".
+Add data attribute to the elements you wish to equalise and give it a value: data-matchHeights="A".<br>
 Ensure the elements each have display: block;.
 Then run the script.
 
