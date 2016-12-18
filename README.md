@@ -1,21 +1,21 @@
 #Matching Element Heights
 
-Easily match-up heights across a set of non-linear elements.
+Easily match-up heights across a set of non-linear elements.<br>
 Allows for multiple sets, with each set having a different height defined by an inline min-height.
 
 <strong>CodePen demo: <a href="http://codepen.io/2kool2/pen/MbqGOQ">Matching element heights</a></strong>
 
-Super small vanilla script: Approx 417 bytes minified and gzipped (694 bytes uncompressed). No dependencies.
+Super small vanilla script: Approx 417 bytes minified and gzipped (694 bytes uncompressed) with zero dependencies.
 
 
 <br>
 ##How it works
 
 Add data attribute to the elements you wish to equalise and give it a value: data-matchHeights="A".<br>
-Ensure the elements each have display: block;.
+Ensure the elements each have display: block;.<br>
 Then run the script.
 
-All elements with the same data attribute value have the same min-height applied.
+All elements with the same data attribute value have the same min-height applied.<br>
 The min-height is equal to the tallest elements height and is recalculated when the browser width changes.
 
 <br>
