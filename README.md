@@ -45,4 +45,3 @@ Tested Mac and PC: IE9+, Chrome, Safari, Firefox.
 
 <hr>
 Mike Foskett @ <a href="https://websemantics.uk/">webSemantics</a>
-# matching-element-heights
