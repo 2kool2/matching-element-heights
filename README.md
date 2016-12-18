@@ -11,8 +11,8 @@ Super small vanilla script: Approx 417 bytes minified and gzipped (694 bytes unc
 <br>
 ##How it works
 
-Add data attribute to the elements you wish to equalise and give it a value: ```html data-matchHeights="A" ```.<br>
-Ensure the elements each have ```css display: block; ```.<br>
+Add data attribute to the elements you wish to equalise and give it a value: ``` data-matchHeights="A" ```.<br>
+Ensure the elements each have ``` display: block; ```.<br>
 Then run the script.
 
 All elements with the same data attribute value have the same min-height applied.<br>
