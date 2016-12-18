@@ -13,8 +13,8 @@
 <h1>Matching non-linear element heights</h1>
 
 <p>Easily match-up heights across a set of non-linear elements.<br>
-  Allows for multiple sets, with each set having a different height defined by an inline min-height.<br>
-  For use where Flexbox is too cumbersome or cannot be retro-fitted.
+  Allows for multiple sets, with each set having a different height defined by a JavaScript injected inline <code>min-height</code>.<br>
+  For use where Flexbox is too cumbersome, or cannot be retro-fitted.
 </p>
 
 <p><strong>CodePen demo: <a href="http://codepen.io/2kool2/pen/MbqGOQ">Matching element heights</a></strong></p>
@@ -41,8 +41,8 @@
 Ensure the elements each have <code>display: block;</code>.<br>
 Then run the script.</p>
 
-<p>All elements with the same data attribute value have the same min-height applied.<br>
-The min-height is equal to the tallest elements height and is recalculated when the browser width changes.</p>
+<p>All elements with the same data attribute value have the same <code>min-height</code> applied.<br>
+The <code>min-height</code> value is equal to the tallest elements height and is recalculated when the browser is resized.</p>
 
 
 <h2>Basic usage</h2>
